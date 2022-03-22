@@ -1,0 +1,229 @@
+/* ALLGEMEIN */
+
+body {
+
+    color: black;
+    font-family: sans-serif;
+
+}
+
+/* NAVIGATION */
+
+#navigation {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(250, 250, 250, 0.8);
+
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    vertical-align: middle;
+    
+}
+
+#logo p {
+    font-family: AcmeFont;
+    font-size: 2em;
+    line-height: 1;
+    color: #274E71;
+
+}
+
+#menu {
+    float: right;
+    margin-top: 44px;
+    margin-right: 50px;
+
+}
+
+#menu a {
+    font-family: sans-serif;
+    padding-right: 30px;
+    padding-top: 35px;
+    text-decoration: none;
+    color: #274E71;
+    font-weight: 700;
+    transition: all ease-in-out 0.3s;
+    
+
+}
+
+#menu a:hover {
+    border-top: 5px solid red;
+    font-size: 1.2em;
+    font-style: oblique;
+
+}
+
+
+/* REZEPT */
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+#heading {
+    text-align: center;
+    margin-top: 125px;
+    width: 100%;
+    height: 50px;
+
+}
+
+#heading h1:hover {
+    font-size: 1.75em;
+    font-style: oblique;
+    transition: all ease-in-out 0.3s;
+
+}
+
+#heading a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#bild1 {
+
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#rezepte {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+
+}
+
+#zutaten {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+
+}
+
+ul {
+    list-style-position: inside;
+    list-style-image: url(img/cake-pops_aufzaehlung.jpg);
+
+}
+
+ol {
+    list-style-position: inside;
+    list-style: decimal;
+    
+}
+
+
+#durchführung {
+    margin-top: 225px;
+    width: 100%;
+    height: 50px;
+
+}
+
+#guten {
+    color: crimson;
+    font-family: Impact;
+    margin-top: 200px;
+    float: right;
+    position: absolute;
+    top: 950px;
+    left: 1000px;
+
+}
+
+#guten:hover {
+    font-size: 1.2em;
+    font-style: oblique;
+    transition: all ease-in-out 0.3s;
+    
+}
+
+#bild2 {
+    float: left;
+    margin-top: 250px;
+
+}
+
+
+/* FOOTER */
+
+#footer {
+    margin-top: 400px;
+    width: 800px;
+    height: 175px;
+    background-color: rgba(250, 250, 250, 0.8);
+
+
+}
+
+#menu_footer {
+    float: right;
+    margin-top: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+
+#menu_footer a {
+    font-family: sans-serif;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #274E71;
+    font-weight: 700;
+    padding-top: 35px;
+    
+
+}
+
+#menu_footer a:hover {
+    border-top: 5px solid red;
+    font-size: 1.2em;
+    font-style: oblique;
+    transition: all ease-in-out 0.3s;
+
+}
+
+
+/* BILDER */
+
+#bilder {
+	margin-top: -25px;
+}
+
+
+/* SPAN */
+
+
+
+span:hover {
+    font-style: oblique;
+    font-size: 1.1em;
+    transition: all ease-in-out 0.2s;
+
+}
+
+#email {
+	float: left;;
+}
+
+#emailgif {
+	margin-top:-4px;
+	 margin-left: 5px;
+    float: left;
+}
